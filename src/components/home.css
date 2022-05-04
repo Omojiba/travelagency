@@ -79,13 +79,15 @@ button{
      padding-left: 5px ;
      margin-top: 0;
      text-transform: uppercase;
+     font-size: 12px;
+     font-weight: 750;
 }
 .ss1{
 display: flex;
 align-items: center;
 }
 .dropdown{
-    margin-left: 30px;
+    margin-left: 20px;
 }
 select, option{
     margin-top: 10px;
@@ -95,4 +97,7 @@ select, option{
 }
 .booktrip{
     align-items: center;
+}
+.small-section{
+    display: flex;
 }
