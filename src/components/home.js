@@ -5,6 +5,12 @@ import location from './Assets/location.svg'
 import persons from './Assets/persons_icon.svg'
 import calendar from './Assets/calendar_icon.svg'
 import plane from './Assets/plane.svg'
+import nike from './Assets/nike.svg'
+import applepay from './Assets/apple_pay.svg'
+import silverstar from './Assets/silver_star.svg'
+import intrax from './Assets/intrax.svg'
+import mastercard from './Assets/mastercard.svg'
+
 
 const home = () => {
   return (
@@ -95,10 +101,27 @@ const home = () => {
             </select>
             </div>
             </div>
-            <div> <button className='cta'>
-               Book Trip <img src={plane}/>
-              </button></div>
+            <div className='booktrip'>
+              <div> Book Trip</div>
+                <img className='plane' src={plane}/>
+              </div>
           
+        </section>
+        
+        <section className='partners'>
+          <div><img src={nike} alt='nike logo'/></div>
+          <div> <img src={applepay} alt='applepay logo'/></div>
+          <div> <img src={silverstar} alt='silverstar logo'/></div>
+          <div> <img src={intrax} alt='intrax logo'/></div>
+          <div> <img src={mastercard} alt='mastercard logo'/></div>
+        </section>
+
+        <section className='secondsection'>
+          <h1 id='first'>Creating the best <span>ice cold!</span> experience you would never forget.</h1>
+
+          <p>would you explore nature's paradise in the world, find the best destination in the world with us.</p>
+
+          <h1>View Regions available</h1>
         </section>
     </div>
   )
