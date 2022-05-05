@@ -123,6 +123,22 @@ const home = () => {
 
           <h1>View Regions available</h1>
         </section>
+
+      <section className='thirdsection'>
+
+        <div className='subsection1'> 
+        <div className='text'><h1>Mountain Resort</h1></div>
+        </div>
+
+        <div className='subsection2'> 
+        <h1>Fuji Mountain</h1>
+        </div>
+
+        <div className='subsection3'> 
+        <h1>Freezing WinterLake</h1>
+        </div>
+
+      </section>
     </div>
   )
 }

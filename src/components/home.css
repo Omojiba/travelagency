@@ -170,3 +170,34 @@ select, option{
     font-size: 24px;
     margin-bottom: 100px;
 }
+
+/* styles for third section */
+.subsection1{
+    background-image: url('Assets/pic1.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 477px;
+    height: 1024px;
+    padding: 0;
+}
+.subsection2{
+    background-image: url('Assets/pic2.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 477px;
+    height: 1024px;
+    padding: 0;
+    
+}
+.subsection3{
+    background-image: url('Assets/pic3.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 477px;
+    height: 1024px;
+    padding: 0;
+}
+.thirdsection{
+    display: flex;
+    justify-content: center;
+}
