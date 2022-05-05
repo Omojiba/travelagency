@@ -131,11 +131,11 @@ const home = () => {
         </div>
 
         <div className='subsection2'> 
-        <h1>Fuji Mountain</h1>
+        <div className='text' id='fuji'><h1>Fuji Mountain</h1></div>
         </div>
 
         <div className='subsection3'> 
-        <h1>Freezing WinterLake</h1>
+        <div className='text' id='winterlake'><h1>Freezing WinterLake</h1></div>
         </div>
 
       </section>
