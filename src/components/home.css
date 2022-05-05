@@ -72,7 +72,14 @@ button{
     padding: 25px 70px;
 }
 .one{
-    padding: 30px 120px;
+    padding: 30px 10px;
+    
+}
+.one:not(:first-child){
+    margin: 0 95px;
+}
+.one:first-child{
+    margin-right: 100px;
 }
 .ss1 span{
     color: black;
@@ -87,7 +94,7 @@ display: flex;
 align-items: center;
 }
 .dropdown{
-    margin-left: 20px;
+    margin-left: 10px;
 }
 select, option{
     margin-top: 10px;
@@ -95,9 +102,71 @@ select, option{
     font-size: 15px;
     border-style: none;
 }
-.booktrip{
-    align-items: center;
-}
 .small-section{
     display: flex;
+    padding: 10px 20px 10px 0px;
+    position: absolute;
+    transform: translateY(-50%);
+    background: white;
+    border-radius: 12px;
+    justify-content: center;
+    margin: 0 120px;
+}
+.booktrip{
+    background:rgba(62, 134, 245, 1) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 45px;
+    margin-top: 30px;
+    height: 60px;
+    width: 200px;
+    border-radius: 10px;
+}
+.booktrip img{
+    margin-left: 5px;
+}
+.partners{
+    background: rgba(248, 249, 252, 1);
+    padding-top: 120px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* styles for second section */
+
+.secondsection{
+    background-image: url('Assets/map.svg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+}
+.secondsection h1{
+    color: black;
+    font-size: 40px;
+    line-height: 135%;
+    padding: 50px 5px 50px 30px;
+    width: 791px;
+    margin-top: 0;
+    text-align: center;
+    font-weight: 700;
+    
+}
+#first{
+    margin-top: -50px;
+}
+.secondsection h1 span{
+    color: rgba(62, 134, 245, 1);
+}
+.secondsection p{
+    color: rgba(0, 0, 0, 0.5);
+    width: 697px;
+    line-height: 150%;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 100px;
 }
