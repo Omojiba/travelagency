@@ -190,34 +190,39 @@ select, option{
 }
 #one{
     background-image: url('Assets/fullpic1.svg');
-    background-position: 0px 0;
+    background-position: -30px 0;
+    opacity: 0.8;
+    
 }
 #one:active{
     background-image: url('Assets/fullpic1.svg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0 -100px;
+    opacity: 1;
 }
 
 
 #two{
     background-image: url('Assets/fullpic2.svg');
+    opacity: 0.8;
 }
 #two:active{
     background-image: url('Assets/fullpic2.svg');
     background-size: cover;
     background-repeat: no-repeat;
-    
+    opacity: 1;
 }
 
 #three{
     background-image: url('Assets/fullpic3.svg');
-   /* background-position: 0px -250px; */
+    opacity: 0.8;
 }
 #three:active{
     background-image: url('Assets/fullpic3.svg');
     background-size: cover;
     background-repeat: no-repeat;
+    opacity: 1;
 }
 
 .thirdsection{
@@ -228,15 +233,21 @@ select, option{
     
 }
 .text{
-    /*position: absolute;
+    position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    text-align: end;
-    padding: 0px 420px 450px 0; 
+    padding: 50px 430px 0px 0; 
     writing-mode: tb-rl;
     transform: rotate(-180deg);
-    font-size: 50px; */
-    visibility: collapse;
+    font-size: 40px;  
+    transition: 1s ease-in-out;
+}
+.text:active{
+    position: relative;
+    transform: rotate(-90deg);
+    transition: 1s ease;
+    padding: 0px 0px 0px 0; 
+    margin: -50px 250px 100px 200px;
 }
