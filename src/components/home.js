@@ -126,15 +126,15 @@ const home = () => {
 
       <section className='thirdsection'>
 
-        <div className='subsection1'> 
+        <div className='subsection' id='one'> 
         <div className='text'><h1>Mountain Resort</h1></div>
         </div>
 
-        <div className='subsection2'> 
+        <div className='subsection' id='two'> 
         <div className='text' id='fuji'><h1>Fuji Mountain</h1></div>
         </div>
 
-        <div className='subsection3'> 
+        <div className='subsection' id='three'> 
         <div className='text' id='winterlake'><h1>Freezing WinterLake</h1></div>
         </div>
 
