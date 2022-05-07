@@ -172,53 +172,71 @@ select, option{
 }
 
 /* styles for third section */
-.subsection1{
-    background-image: url('Assets/pic1.svg');
-    background-size: contain;
+.subsection{
+    background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
-    height: 0;
-    padding-top: 214.67%;
     position: relative;
+    flex: 0.7;
+    height: 90vh;
+
+    
+    transition: 1s;
 }
-.subsection2{
-    background-image: url('Assets/pic2.svg');
-    background-size: contain;
+.subsection img{
+    padding: 0%;
+}
+.subsection:active{
+    flex: 5;
+}
+#one{
+    background-image: url('Assets/fullpic1.svg');
+    background-position: 0px 0;
+}
+#one:active{
+    background-image: url('Assets/fullpic1.svg');
+    background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
-    height: 0;
-    padding-top: 214.67%;
-    position: relative;
+    background-position: 0 -100px;
+}
+
+
+#two{
+    background-image: url('Assets/fullpic2.svg');
+}
+#two:active{
+    background-image: url('Assets/fullpic2.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
     
 }
-.subsection3{
-    background-image: url('Assets/pic3.svg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 0;
-    padding-top: 214.67%;
-    position: relative;
+
+#three{
+    background-image: url('Assets/fullpic3.svg');
+   /* background-position: 0px -250px; */
 }
+#three:active{
+    background-image: url('Assets/fullpic3.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .thirdsection{
-    display: flex;
-    justify-content: center;
+    display: flex ;
+    margin: 0;
+    padding: 20px;
+    height: 100vh;
+    
 }
 .text{
-    position: absolute;
+    /*position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
     text-align: end;
-    padding: 0px 420px 450px 0;
+    padding: 0px 420px 450px 0; 
     writing-mode: tb-rl;
     transform: rotate(-180deg);
-    font-size: 50px; 
-}
-#fuji{
-    padding: 0px 420px 550px 0;
-}
-#winterlake{
-    padding: 0px 420px 300px 0;
+    font-size: 50px; */
+    visibility: collapse;
 }
