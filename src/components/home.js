@@ -1,4 +1,5 @@
 import React from 'react'
+import { useState } from 'react'
 import './home.css'
 import logo from './Assets/icon2.svg'
 import location from './Assets/location.svg'
@@ -12,7 +13,24 @@ import intrax from './Assets/intrax.svg'
 import mastercard from './Assets/mastercard.svg'
 
 
-const home = () => {
+function Home(){
+
+   const [switchToggled, setSwitchToggled] = useState(false);
+
+   const ToggleSwitch = () =>{
+
+    switchToggled ? setSwitchToggled(false) : setSwitchToggled(true); 
+   }
+
+
+   const [switchToggled2, setSwitchToggled2] = useState(false);
+
+   const ToggleSwitch2 = () =>{
+     switchToggled2 ? setSwitchToggled2(false) : setSwitchToggled2(true);
+   }
+
+
+
   return (
     <div className='body'>
         <section className='firstsection'>
@@ -126,11 +144,11 @@ const home = () => {
 
       <section className='thirdsection'>
 
-        <div className='subsection' id='one'> 
-        <div className='text'><h1>Mountain Resort</h1></div>
+        <div className={switchToggled ? "one_active" : "one"} id='one'onClick={ToggleSwitch}> 
+        <div className={switchToggled ? "textone_active" : "textone"}><h1>Mountain Resort</h1></div>
         </div>
 
-        <div className='subsection' id='two'> 
+        <div className={switchToggled2 ? 'two_active' : 'two'} id='two' onClick={ToggleSwitch2}> 
         <div className='text' id='fuji'><h1>Fuji Mountain</h1></div>
         </div>
 
@@ -140,7 +158,7 @@ const home = () => {
 
       </section>
     </div>
-  )
+  );
 }
 
-export default home
+export default Home

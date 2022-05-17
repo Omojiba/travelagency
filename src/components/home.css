@@ -177,41 +177,96 @@ select, option{
     background-repeat: no-repeat;
     position: relative;
     flex: 0.7;
-    height: 90vh;
-
-    
+    height: 90vh; 
     transition: 1s;
 }
 .subsection img{
     padding: 0%;
 }
-.subsection:active{
-    flex: 5;
+
+.one{
+    background-image: url('Assets/fullpic1.svg');
+    background-position: -30px 0;
+    opacity: 0.9;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    flex: 0.7;
+    height: 90vh; 
+    transition: 1s;
 }
-#one{
+
+.one_active{
+    flex: 5;
+    background-image: url('Assets/fullpic1.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 -100px;
+    opacity: 1;
+    transition: 1s ease;
+    height: 90vh;
+}
+.textone{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 50px 430px 0px 0; 
+    writing-mode: tb-rl;
+    transform: rotate(-180deg);
+    font-size: 40px;  
+    transition: 1s ease-in-out;
+}
+.textone_active{
+    position: relative;
+    transform: rotate(-90deg);
+    transition: 1s ease;
+    writing-mode: vertical-lr;
+    padding: 0px 0px 0px 0; 
+    margin: -50px 250px 100px 200px;
+}
+/* .one{
     background-image: url('Assets/fullpic1.svg');
     background-position: -30px 0;
     opacity: 0.8;
     
-}
-#one:active{
+} */
+/* .one:active{
     background-image: url('Assets/fullpic1.svg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0 -100px;
     opacity: 1;
 }
+#one.active{
+    background-image: url('Assets/fullpic1.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 -100px;
+    opacity: 1;
+
+} */
 
 
-#two{
+.two{
     background-image: url('Assets/fullpic2.svg');
     opacity: 0.8;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    flex: 0.7;
+    height: 90vh; 
+    transition: 1s;
 }
-#two:active{
+.two_active{
     background-image: url('Assets/fullpic2.svg');
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 1;
+    flex: 5;
+    height: 90vh;
+    transition: 1s ease;
 }
 
 #three{
@@ -228,26 +283,8 @@ select, option{
 .thirdsection{
     display: flex ;
     margin: 0;
-    padding: 20px;
+    
     height: 100vh;
     
 }
-.text{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding: 50px 430px 0px 0; 
-    writing-mode: tb-rl;
-    transform: rotate(-180deg);
-    font-size: 40px;  
-    transition: 1s ease-in-out;
-}
-.text:active{
-    position: relative;
-    transform: rotate(-90deg);
-    transition: 1s ease;
-    padding: 0px 0px 0px 0; 
-    margin: -50px 250px 100px 200px;
-}
+
