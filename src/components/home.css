@@ -217,6 +217,7 @@ select, option{
     transform: rotate(-180deg);
     font-size: 40px;  
     transition: 1s ease-in-out;
+    overflow: hidden;
 }
 .textone_active{
     position: relative;
@@ -225,6 +226,7 @@ select, option{
     writing-mode: vertical-lr;
     padding: 0px 0px 0px 0; 
     margin: -50px 250px 100px 200px;
+    overflow: hidden;
 }
 /* .one{
     background-image: url('Assets/fullpic1.svg');
