@@ -64,7 +64,7 @@ function Home(){
         </section>
         <section className='small-section'>
 
-          <div className='one'>
+          <div className='tripdetails'>
           <div className='ss1'>
             <img src={location}/> <div><span>Location</span></div>
             </div>
@@ -78,7 +78,7 @@ function Home(){
             </div>
             </div>
 
-            <div className='one'>
+            <div className='tripdetails'>
           <div className='ss1'>
             <img src={persons}/> <div><span>persons</span></div>
             </div>
@@ -92,7 +92,7 @@ function Home(){
             </div>
             </div>
 
-            <div className='one'>
+            <div className='tripdetails'>
           <div className='ss1'>
             <img src={calendar}/> <div><span>check in</span></div>
             </div>
@@ -106,7 +106,7 @@ function Home(){
             </div>
             </div>
 
-            <div className='one'>
+            <div className='tripdetails'>
           <div className='ss1'>
             <img src={calendar}/> <div><span>check out</span></div>
             </div>
