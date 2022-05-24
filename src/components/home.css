@@ -71,14 +71,15 @@ button{
     color: white;
     padding: 25px 70px;
 }
-.one{
+
+.tripdetails{
     padding: 30px 10px;
     
 }
-.one:not(:first-child){
+.tripdetails:not(:first-child){
     margin: 0 95px;
 }
-.one:first-child{
+.tripdetails:first-child{
     margin-right: 100px;
 }
 .ss1 span{
