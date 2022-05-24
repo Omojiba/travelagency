@@ -173,17 +173,14 @@ select, option{
 }
 
 /* styles for third section */
-.subsection{
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-    flex: 0.7;
-    height: 90vh; 
-    transition: 1s;
+
+.thirdsection{
+    display: flex ;
+    margin: 0;
+    height: 100vh;
+    
 }
-.subsection img{
-    padding: 0%;
-}
+
 
 .one{
     background-image: url('Assets/fullpic1.svg');
@@ -193,7 +190,7 @@ select, option{
     background-repeat: no-repeat;
     position: relative;
     flex: 0.7;
-    height: 90vh; 
+    height: 95vh; 
     transition: 1s;
 }
 
@@ -205,7 +202,7 @@ select, option{
     background-position: 0 -100px;
     opacity: 1;
     transition: 1s ease;
-    height: 90vh;
+    height: 95vh;
 }
 .textone{
     position: absolute;
@@ -259,7 +256,7 @@ select, option{
     background-repeat: no-repeat;
     position: relative;
     flex: 0.7;
-    height: 90vh; 
+    height: 95vh; 
     transition: 1s;
 }
 .two_active{
@@ -268,26 +265,28 @@ select, option{
     background-repeat: no-repeat;
     opacity: 1;
     flex: 5;
-    height: 90vh;
+    height: 95vh;
     transition: 1s ease;
 }
 
-#three{
+.three{
     background-image: url('Assets/fullpic3.svg');
     opacity: 0.8;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    flex: 0.7;
+    height: 95vh; 
+    transition: 1s;
 }
-#three:active{
+
+.three_active{
     background-image: url('Assets/fullpic3.svg');
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 1;
-}
-
-.thirdsection{
-    display: flex ;
-    margin: 0;
-    
-    height: 100vh;
-    
+    flex: 5;
+    height: 95vh;
+    transition: 1s ease;
 }
 
