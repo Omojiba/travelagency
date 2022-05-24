@@ -15,6 +15,7 @@ import mastercard from './Assets/mastercard.svg'
 
 function Home(){
 
+// Switch 1
    const [switchToggled, setSwitchToggled] = useState(false);
 
    const ToggleSwitch = () =>{
@@ -22,11 +23,18 @@ function Home(){
     switchToggled ? setSwitchToggled(false) : setSwitchToggled(true); 
    }
 
-
+// Switch 2
    const [switchToggled2, setSwitchToggled2] = useState(false);
 
    const ToggleSwitch2 = () =>{
      switchToggled2 ? setSwitchToggled2(false) : setSwitchToggled2(true);
+   }
+
+// Switch 3
+const [switchToggled3, setSwitchToggled3] = useState(false);
+
+   const ToggleSwitch3 = () =>{
+     switchToggled3 ? setSwitchToggled3(false) : setSwitchToggled3(true);
    }
 
 
@@ -152,7 +160,7 @@ function Home(){
         <div className='text' id='fuji'><h1>Fuji Mountain</h1></div>
         </div>
 
-        <div className='subsection' id='three'> 
+        <div className={switchToggled3 ? 'three_active' : 'three'} id='three' onClick={ToggleSwitch3}> 
         <div className='text' id='winterlake'><h1>Freezing WinterLake</h1></div>
         </div>
 
