@@ -11,6 +11,7 @@ import applepay from './Assets/apple_pay.svg'
 import silverstar from './Assets/silver_star.svg'
 import intrax from './Assets/intrax.svg'
 import mastercard from './Assets/mastercard.svg'
+import chevron from './Assets/chevron.svg'
 
 
 function Home(){
@@ -153,25 +154,35 @@ const [switchToggled3, setSwitchToggled3] = useState(false);
       <section className='thirdsection'>
 
         <div className={switchToggled ? "one_active" : "one"} id='one'onClick={ToggleSwitch}> 
+        <img src={chevron} alt='chevron'/>
         <div className={switchToggled ? "textone_active" : "textone"}><h1>Mountain Resort</h1>
         </div>
         <p>This is a place you would love to be to explore nature paradise anywhere in the world</p>
+        <button>Book Now</button>
         </div>
 
 
         <div className={switchToggled2 ? 'two_active' : 'two'} id='two' onClick={ToggleSwitch2}> 
+        <img src={chevron} alt='chevron'/>
         <div className={switchToggled2 ? 'texttwo_active' : 'texttwo'}><h1>Fuji Mountain</h1>
         </div>
         <p>This is a place you would love to be to explore nature paradise anywhere in the world</p>
+        <button>Book Now</button>
         </div>
 
 
         <div className={switchToggled3 ? 'three_active' : 'three'} id='three' onClick={ToggleSwitch3}> 
+        <img src={chevron} alt='chevron'/>
         <div className={switchToggled3 ? 'textthree_active' : 'textthree'}><h1>Freezing WinterLake</h1>
         </div>
         <p>This is a place you would love to be to explore nature paradise anywhere in the world</p>
+        <button>Book Now</button>
         </div>
 
+      </section>
+
+      <section className='fourthSection'>
+        <div className='1'></div>
       </section>
     </div>
   );
