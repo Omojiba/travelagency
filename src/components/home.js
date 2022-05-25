@@ -153,15 +153,23 @@ const [switchToggled3, setSwitchToggled3] = useState(false);
       <section className='thirdsection'>
 
         <div className={switchToggled ? "one_active" : "one"} id='one'onClick={ToggleSwitch}> 
-        <div className={switchToggled ? "textone_active" : "textone"}><h1>Mountain Resort</h1></div>
+        <div className={switchToggled ? "textone_active" : "textone"}><h1>Mountain Resort</h1>
         </div>
+        <p>This is a place you would love to be to explore nature paradise anywhere in the world</p>
+        </div>
+
 
         <div className={switchToggled2 ? 'two_active' : 'two'} id='two' onClick={ToggleSwitch2}> 
-        <div className='text' id='fuji'><h1>Fuji Mountain</h1></div>
+        <div className={switchToggled2 ? 'texttwo_active' : 'texttwo'}><h1>Fuji Mountain</h1>
+        </div>
+        <p>This is a place you would love to be to explore nature paradise anywhere in the world</p>
         </div>
 
+
         <div className={switchToggled3 ? 'three_active' : 'three'} id='three' onClick={ToggleSwitch3}> 
-        <div className='text' id='winterlake'><h1>Freezing WinterLake</h1></div>
+        <div className={switchToggled3 ? 'textthree_active' : 'textthree'}><h1>Freezing WinterLake</h1>
+        </div>
+        <p>This is a place you would love to be to explore nature paradise anywhere in the world</p>
         </div>
 
       </section>
