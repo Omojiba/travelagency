@@ -178,10 +178,11 @@ select, option{
     display: flex ;
     margin: 0;
     height: 100vh;
+    padding: 0 10px;
     
 }
 
-
+/* First Div (3rd Section) */
 .one{
     background-image: url('Assets/fullpic1.svg');
     background-position: -200px 0px;
@@ -195,10 +196,14 @@ select, option{
 }
 .one p{
     position: absolute;
-    top: 100vh;
+    top: 50vh;
     bottom: 0;
-    left: 20px;
+    left: 0px;
+    right: 0;
     transition: 1s ease;
+    font-size: 20px;
+    width: 25em;
+    transform: translateY(100vh);
 }
 
 .one_active{
@@ -210,6 +215,7 @@ select, option{
     opacity: 1;
     transition: 1s ease;
     height: 95vh;
+    box-shadow: 20px 20px 50px 30px black;
 }
 .one_active p{
     transition: 1s ease;
@@ -237,32 +243,12 @@ select, option{
     transition: 1.2s ease;
     writing-mode: vertical-lr;
     padding: 0px 0px 0px 0; 
-    margin: 40px 250px -150px 350px;
+    margin: 40px 250px -160px 350px;
     overflow: hidden;
     font-size: 40px;
 }
-/* .one{
-    background-image: url('Assets/fullpic1.svg');
-    background-position: -30px 0;
-    opacity: 0.8;
-    
-} */
-/* .one:active{
-    background-image: url('Assets/fullpic1.svg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 0 -100px;
-    opacity: 1;
-}
-#one.active{
-    background-image: url('Assets/fullpic1.svg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 0 -100px;
-    opacity: 1;
 
-} */
-
+/* Second Div (3rd Section) */
 
 .two{
     background-image: url('Assets/fullpic2.svg');
@@ -282,6 +268,7 @@ select, option{
     flex: 5;
     height: 95vh;
     transition: 1s ease;
+    box-shadow: 20px 20px 50px 30px black;
 }
 .texttwo{
     position: absolute;
@@ -302,35 +289,30 @@ select, option{
     transition: 1.2s ease;
     writing-mode: vertical-lr;
     padding: 0px 0px 0px 0; 
-    margin: 150px 250px -150px 350px;
+    margin: 150px 250px -120px 310px;
     overflow: hidden;
     font-size: 40px;
 }
-.p{
+.two p{
     position: absolute;
-    top: 200px;
+    top: 50vh;
     bottom: 0;
-    left: 50px;
-    right: 200px;
-    padding: 150px 700px 0px 0; 
-    writing-mode: tb-rl;
-    transform: rotate(-90deg);
-    font-size: 20px;  
-    transition: 1.2s ease-in-out;
-    overflow: hidden;
-}
-.p_active{
-    position: relative;
-    transform: rotate(-90deg);
-    transition: 1.2s ease;
-    writing-mode: vertical-rl;
-    padding: 0px 0px 0px 400px; 
-    margin: 50px 0px 350px 135px;
-    overflow: hidden;
+    left: 0px;
+    right: 0;
+    transition: 1s ease;
     font-size: 20px;
-
-    
+    width: 25em;
+    transform: translateY(100vh);
 }
+.two_active p{
+    transition: 1s ease;
+    margin-left: 150px;
+    font-size: 20px;
+    width: 25em;
+    position: relative;    
+}
+
+/* Third Div (3rd section) */
 
 .three{
     background-image: url('Assets/fullpic3.svg');
@@ -346,10 +328,55 @@ select, option{
 .three_active{
     background-image: url('Assets/fullpic3.svg');
     background-size: cover;
+    background-position: 0 -100px;
     background-repeat: no-repeat;
     opacity: 1;
     flex: 5;
     height: 95vh;
     transition: 1s ease;
+    box-shadow: 20px 20px 50px 30px black;
+    
+}
+
+.textthree{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 50px 430px 0px 0; 
+    writing-mode: tb-rl;
+    transform: rotate(-180deg);
+    font-size: 42px;  
+    transition: 1.2s ease-in-out;
+    overflow: hidden;
+}
+.textthree_active{
+    position: relative;
+    transform: rotate(-90deg);
+    transition: 1s  ease-in;
+    writing-mode: vertical-lr;
+    padding: 0px 0px 0px 0; 
+    margin: 30px 0px -220px 410px;
+    overflow: hidden;
+    font-size: 40px;
+}
+.three p{
+    position: absolute;
+    top: 50vh;
+    bottom: 0;
+    left: 0px;
+    right: 0;
+    transition: 1s ease;
+    font-size: 20px;
+    width: 25em;
+    transform: translateY(100vh);
+}
+.three_active p{
+    transition: 1s ease;
+    margin-left: 150px;
+    font-size: 20px;
+    width: 25em;
+    position: relative;    
 }
 
