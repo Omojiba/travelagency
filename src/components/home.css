@@ -184,7 +184,7 @@ select, option{
 
 .one{
     background-image: url('Assets/fullpic1.svg');
-    background-position: -30px 0;
+    background-position: -200px 0px;
     opacity: 0.9;
     background-size: cover;
     background-repeat: no-repeat;
@@ -192,6 +192,13 @@ select, option{
     flex: 0.7;
     height: 95vh; 
     transition: 1s;
+}
+.one p{
+    position: absolute;
+    top: 100vh;
+    bottom: 0;
+    left: 20px;
+    transition: 1s ease;
 }
 
 .one_active{
@@ -204,6 +211,13 @@ select, option{
     transition: 1s ease;
     height: 95vh;
 }
+.one_active p{
+    transition: 1s ease;
+    margin-left: 150px;
+    font-size: 20px;
+    width: 25em;
+    position: relative;
+}
 .textone{
     position: absolute;
     top: 0;
@@ -213,18 +227,19 @@ select, option{
     padding: 50px 430px 0px 0; 
     writing-mode: tb-rl;
     transform: rotate(-180deg);
-    font-size: 40px;  
-    transition: 1s ease-in-out;
+    font-size: 42px;  
+    transition: 1.2s ease-in-out;
     overflow: hidden;
 }
 .textone_active{
     position: relative;
     transform: rotate(-90deg);
-    transition: 1s ease;
+    transition: 1.2s ease;
     writing-mode: vertical-lr;
     padding: 0px 0px 0px 0; 
-    margin: -50px 250px 100px 200px;
+    margin: 40px 250px -150px 350px;
     overflow: hidden;
+    font-size: 40px;
 }
 /* .one{
     background-image: url('Assets/fullpic1.svg');
@@ -267,6 +282,54 @@ select, option{
     flex: 5;
     height: 95vh;
     transition: 1s ease;
+}
+.texttwo{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 50px 430px 0px 0; 
+    writing-mode: tb-rl;
+    transform: rotate(-180deg);
+    font-size: 42px;  
+    transition: 1.2s ease-in-out;
+    overflow: hidden;
+}
+.texttwo_active{
+    position: relative;
+    transform: rotate(-90deg);
+    transition: 1.2s ease;
+    writing-mode: vertical-lr;
+    padding: 0px 0px 0px 0; 
+    margin: 150px 250px -150px 350px;
+    overflow: hidden;
+    font-size: 40px;
+}
+.p{
+    position: absolute;
+    top: 200px;
+    bottom: 0;
+    left: 50px;
+    right: 200px;
+    padding: 150px 700px 0px 0; 
+    writing-mode: tb-rl;
+    transform: rotate(-90deg);
+    font-size: 20px;  
+    transition: 1.2s ease-in-out;
+    overflow: hidden;
+}
+.p_active{
+    position: relative;
+    transform: rotate(-90deg);
+    transition: 1.2s ease;
+    writing-mode: vertical-rl;
+    padding: 0px 0px 0px 400px; 
+    margin: 50px 0px 350px 135px;
+    overflow: hidden;
+    font-size: 20px;
+
+    
 }
 
 .three{
