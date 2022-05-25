@@ -170,6 +170,7 @@ const [switchToggled3, setSwitchToggled3] = useState(false);
         <div className={switchToggled3 ? 'textthree_active' : 'textthree'}><h1>Freezing WinterLake</h1>
         </div>
         <p>This is a place you would love to be to explore nature paradise anywhere in the world</p>
+        <button>Book Now</button>
         </div>
 
       </section>
