@@ -203,6 +203,7 @@ select, option{
     font-size: 20px;
     width: 25em;
     transform: translateY(100vh);
+    visibility: collapse;
 }
 
 .one_active{
@@ -221,10 +222,11 @@ select, option{
     font-size: 20px;
     width: 25em;
     position: relative;
+    overflow: hidden;
 }
 .textone{
     position: absolute;
-    top: 0;
+    top: 8vh;
     bottom: 0;
     left: 0;
     right: 0;
@@ -241,7 +243,7 @@ select, option{
     transition: 1.2s ease;
     writing-mode: vertical-lr;
     padding: 0px 0px 0px 0; 
-    margin: 40px 250px -160px 350px;
+    margin: -40px 250px -160px 350px;
     overflow: hidden;
     font-size: 40px;
 }
@@ -257,6 +259,8 @@ select, option{
     font-size: 10px;
     padding: 15px 50px;
     transform: translateY(100vh);
+    visibility: collapse;
+    
 }
 .one_active button{
     transition: 1s ease;
@@ -267,6 +271,28 @@ select, option{
     position: relative; 
     padding: 15px 50px;
     margin-top: 20px;
+}
+.one img{
+    position: relative;
+    top: -8vh;
+    bottom: 0;
+    left: 0px;
+    right: 0;
+    transition: 2.5s;
+    transform: translateX(-100vw);
+
+}
+.one_active img{
+    transform: translateY(15vh);
+    margin-left: 150px;
+    opacity: 0.5;
+    transition: 1s ease;
+}
+.one_active img:hover{
+    cursor: pointer;
+    opacity: 1;
+    padding: 0;
+    transition: 0.3s;
 }
 
 /* Second Div (3rd Section) */
@@ -309,7 +335,7 @@ select, option{
     transition: 1.2s ease;
     writing-mode: vertical-lr;
     padding: 0px 0px 0px 0; 
-    margin: 100px 250px -120px 310px;
+    margin: 30px 250px -120px 310px;
     overflow: hidden;
     font-size: 40px;
 }
@@ -323,6 +349,7 @@ select, option{
     font-size: 20px;
     width: 25em;
     transform: translateY(100vh);
+    visibility: collapse;
 }
 .two_active p{
     transition: 1s ease;
@@ -343,6 +370,8 @@ select, option{
     font-size: 10px;
     padding: 15px 50px;
     transform: translateY(100vh);
+    visibility: collapse;
+    
 }
 .two_active button{
     transition: 1s ease;
@@ -353,6 +382,30 @@ select, option{
     position: relative; 
     padding: 15px 50px;
     margin-top: 20px;
+    overflow: hidden;
+}
+.two img{
+    position: relative;
+    top: -8vh;
+    bottom: 0;
+    left: 0px;
+    right: 0;
+    transition: 2.5s;
+    transform: translateX(-100vw);
+
+}
+.two_active img{
+    transform: translateY(17vh);
+    margin-left: 150px;
+    opacity: 0.5;
+    transition: 1s ease;
+    overflow: hidden;
+}
+.two_active img:hover{
+    cursor: pointer;
+    opacity: 1;
+    padding: 0;
+    transition: 0.3s;
 }
 
 /* Third Div (3rd section) */
@@ -382,7 +435,7 @@ select, option{
 
 .textthree{
     position: absolute;
-    top: 0;
+    top: 11vh;
     bottom: 0;
     left: 0;
     right: 0;
@@ -399,9 +452,9 @@ select, option{
     transition: 1s  ease-in;
     writing-mode: vertical-lr;
     padding: 0px 0px 0px 0; 
-    margin: -30px 0px -220px 410px;
+    margin: -80px 0px -220px 410px;
     overflow: hidden;
-    font-size: 40px;
+    font-size: 42px;
 }
 .three p{
     position: absolute;
@@ -413,6 +466,7 @@ select, option{
     font-size: 20px;
     width: 25em;
     transform: translateY(100vh);
+    visibility: collapse;
 }
 .three_active p{
     transition: 1s ease;
@@ -434,6 +488,7 @@ select, option{
     font-size: 10px;
     padding: 15px 50px;
     transform: translateY(100vh);
+    visibility: collapse;
 }
 .three_active button{
     transition: 1s ease;
@@ -444,4 +499,34 @@ select, option{
     position: relative; 
     padding: 15px 50px;
     margin-top: 20px;
+}
+.three img{
+    position: relative;
+    top: -8vh;
+    bottom: 0;
+    left: 0px;
+    right: 0;
+    transition: 1s;
+    transform: translateX(-100vw);
+
+}
+.three_active img{
+    transform: translateY(15vh);
+    margin-left: 150px;
+    opacity: 0.5;
+    transition: 1s ease;
+}
+.three_active img:hover{
+    cursor: pointer;
+    opacity: 1;
+    padding: 0;
+    transition: 0.3s;
+}
+
+/* fourth section */
+.fourthSection{
+
+}
+.fourthSection div{
+    
 }
