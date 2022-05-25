@@ -186,7 +186,6 @@ select, option{
 .one{
     background-image: url('Assets/fullpic1.svg');
     background-position: -200px 0px;
-    opacity: 0.9;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -212,7 +211,6 @@ select, option{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0 -100px;
-    opacity: 1;
     transition: 1s ease;
     height: 95vh;
     box-shadow: 20px 20px 50px 30px black;
@@ -247,13 +245,36 @@ select, option{
     overflow: hidden;
     font-size: 40px;
 }
+.one button{
+    position: relative;
+    top: 60vh;
+    bottom: 0;
+    left: 100px;
+    color: white;
+    right: 0;
+    background-color: rgb(19, 111, 248);
+    transition: 1s ease;
+    font-size: 10px;
+    padding: 15px 50px;
+    transform: translateY(100vh);
+}
+.one_active button{
+    transition: 1s ease;
+    margin-left: 150px;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(19, 111, 248);
+    position: relative; 
+    padding: 15px 50px;
+    margin-top: 20px;
+}
 
 /* Second Div (3rd Section) */
 
 .two{
     background-image: url('Assets/fullpic2.svg');
-    opacity: 0.8;
     background-size: cover;
+    background-position: -70px 0px;
     background-repeat: no-repeat;
     position: relative;
     flex: 0.7;
@@ -264,7 +285,6 @@ select, option{
     background-image: url('Assets/fullpic2.svg');
     background-size: cover;
     background-repeat: no-repeat;
-    opacity: 1;
     flex: 5;
     height: 95vh;
     transition: 1s ease;
@@ -289,7 +309,7 @@ select, option{
     transition: 1.2s ease;
     writing-mode: vertical-lr;
     padding: 0px 0px 0px 0; 
-    margin: 150px 250px -120px 310px;
+    margin: 100px 250px -120px 310px;
     overflow: hidden;
     font-size: 40px;
 }
@@ -311,13 +331,36 @@ select, option{
     width: 25em;
     position: relative;    
 }
+.two button{
+    position: relative;
+    top: 60vh;
+    bottom: 0;
+    left: 100px;
+    color: white;
+    right: 0;
+    background-color: rgb(19, 111, 248);
+    transition: 1s ease;
+    font-size: 10px;
+    padding: 15px 50px;
+    transform: translateY(100vh);
+}
+.two_active button{
+    transition: 1s ease;
+    margin-left: 150px;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(19, 111, 248);
+    position: relative; 
+    padding: 15px 50px;
+    margin-top: 20px;
+}
 
 /* Third Div (3rd section) */
 
 .three{
     background-image: url('Assets/fullpic3.svg');
-    opacity: 0.8;
     background-size: cover;
+    background-position: -70px 0;
     background-repeat: no-repeat;
     position: relative;
     flex: 0.7;
@@ -330,7 +373,6 @@ select, option{
     background-size: cover;
     background-position: 0 -100px;
     background-repeat: no-repeat;
-    opacity: 1;
     flex: 5;
     height: 95vh;
     transition: 1s ease;
@@ -357,7 +399,7 @@ select, option{
     transition: 1s  ease-in;
     writing-mode: vertical-lr;
     padding: 0px 0px 0px 0; 
-    margin: 30px 0px -220px 410px;
+    margin: -30px 0px -220px 410px;
     overflow: hidden;
     font-size: 40px;
 }

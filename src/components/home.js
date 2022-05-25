@@ -156,6 +156,7 @@ const [switchToggled3, setSwitchToggled3] = useState(false);
         <div className={switchToggled ? "textone_active" : "textone"}><h1>Mountain Resort</h1>
         </div>
         <p>This is a place you would love to be to explore nature paradise anywhere in the world</p>
+        <button>Book Now</button>
         </div>
 
 
@@ -163,6 +164,7 @@ const [switchToggled3, setSwitchToggled3] = useState(false);
         <div className={switchToggled2 ? 'texttwo_active' : 'texttwo'}><h1>Fuji Mountain</h1>
         </div>
         <p>This is a place you would love to be to explore nature paradise anywhere in the world</p>
+        <button>Book Now</button>
         </div>
 
 
