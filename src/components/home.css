@@ -537,11 +537,21 @@ select, option{
     
 }
 .left .palmtree{
+    background-image: url('./Assets/palmtree.jpg');
+    background-repeat: no-repeat;
+    width: 484px;
+    height: 711px;
+    margin: 0 0 30px 250px;  
+    
+}
+.palmtree:hover{
     background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.8)) , url('./Assets/palmtree.jpg');
     background-repeat: no-repeat;
     width: 484px;
     height: 711px;
-    margin: 0 0 30px 250px;    
+    margin: 0 0 30px 250px;  
+    border-radius: 20px;
+    cursor: pointer;
 }
 .left .boat{
     background-image: url(./Assets/boat.jpg);
