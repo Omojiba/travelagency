@@ -525,8 +525,42 @@ select, option{
 
 /* fourth section */
 .fourthSection{
-
+    padding: 0 160px;
+    display: flex;
 }
-.fourthSection div{
+.fourthSection .hh{
+    color: black;
+    width: 75%;
+    font-size: 48px;
+    line-height: 55px;
+    margin-bottom: 40px ;
+    
+}
+.left .palmtree{
+    background-image: url('./Assets/palmtree.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 484px;
+    height: 711px;
+    margin: 0 0 30px 250px;
+
+    
+}
+.left .boat{
+    background-image: url(./Assets/boat.jpg);
+    width: 484px;
+    height: 711px;
+    margin:0 0 100px 250px;
+}
+.right .snowshed{
+    background-image: url(./Assets/snowshed.jpg);
+    width: 484px;
+    height: 711px;
+    margin-bottom: 30px;
+}
+.right .skier{
+    background-image: url(./Assets/skier.jpg);
+    width: 484px;
+    height: 711px;
     
 }

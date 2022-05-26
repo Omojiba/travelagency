@@ -12,6 +12,8 @@ import silverstar from './Assets/silver_star.svg'
 import intrax from './Assets/intrax.svg'
 import mastercard from './Assets/mastercard.svg'
 import chevron from './Assets/chevron.svg'
+import palmtree from './Assets/palmtree.jpg'
+import boat from './Assets/boat.jpg'
 
 
 function Home(){
@@ -182,7 +184,23 @@ const [switchToggled3, setSwitchToggled3] = useState(false);
       </section>
 
       <section className='fourthSection'>
-        <div className='1'></div>
+        <div className='left'>
+          <h1 className='hh'>The best resorts to chill and relax</h1>
+          <div className='palmtree'>
+           <h1></h1>
+          </div>
+          <div className='boat'>
+          
+          </div>
+        </div>
+        <div className='right'>
+          <div className='snowshed'>
+
+          </div>
+
+          <div className='skier'></div>
+
+        </div>
       </section>
     </div>
   );
