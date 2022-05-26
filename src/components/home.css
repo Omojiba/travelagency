@@ -559,6 +559,15 @@ select, option{
     height: 711px;
     margin:0 0 100px 250px;
 }
+.boat:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.8)) , url('./Assets/boat.jpg');
+    background-repeat: no-repeat;
+    width: 484px;
+    height: 711px;
+    margin:0 0 100px 250px;  
+    border-radius: 20px;
+    cursor: pointer;
+}
 .right .snowshed{
     background-image: url(./Assets/snowshed.jpg);
     width: 484px;
@@ -570,8 +579,13 @@ select, option{
     width: 484px;
     height: 711px;   
 }
-.display_box{
-
+.skier:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.8)) , url('./Assets/skier.jpg');
+    background-repeat: no-repeat;
+    width: 484px;
+    height: 711px;  
+    border-radius: 20px;
+    cursor: pointer;
 }
 
 .four_book{
