@@ -537,14 +537,11 @@ select, option{
     
 }
 .left .palmtree{
-    background-image: url('./Assets/palmtree.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.8)) , url('./Assets/palmtree.jpg');
     background-repeat: no-repeat;
-    background-size: contain;
     width: 484px;
     height: 711px;
-    margin: 0 0 30px 250px;
-
-    
+    margin: 0 0 30px 250px;    
 }
 .left .boat{
     background-image: url(./Assets/boat.jpg);
@@ -561,6 +558,31 @@ select, option{
 .right .skier{
     background-image: url(./Assets/skier.jpg);
     width: 484px;
-    height: 711px;
-    
+    height: 711px;   
+}
+.display_box{
+
+}
+
+.four_book{
+width: 436px;
+margin: auto;
+padding-top: 485px;
+}
+
+.four_book h1{
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.four_book .cam{
+    font-size: 21px;
+    color: grey;
+    margin: 0;
+}
+.four_book button{
+    width: 100%;
+    height: 65px;
+    background-color: rgba(62, 134, 245, 1);
+    color: white;
+    margin-top: 20px;
 }

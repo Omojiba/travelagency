@@ -186,10 +186,23 @@ const [switchToggled3, setSwitchToggled3] = useState(false);
       <section className='fourthSection'>
         <div className='left'>
           <h1 className='hh'>The best resorts to chill and relax</h1>
-          <div className='palmtree'>
-           <h1></h1>
+          <div className='palmtree display_box'>
+
+          <div className='four_book'> 
+            <h1>Winter Landscape Chalet</h1>
+           <h1 className='cam'>Cambodia</h1><br/>
+           <button>Book Now</button>
+           </div>
+
           </div>
-          <div className='boat'>
+
+          <div className='boat display_box'>
+
+          <div className='four_book'> 
+            <h1>Winter Landscape Chalet</h1>
+           <h1 className='cam'>Cambodia</h1><br/>
+           <button>Book Now</button>
+           </div>
           
           </div>
         </div>
@@ -198,7 +211,15 @@ const [switchToggled3, setSwitchToggled3] = useState(false);
 
           </div>
 
-          <div className='skier'></div>
+          <div className='skier display_box'>
+
+          <div className='four_book'> 
+            <h1>Winter Landscape Chalet</h1>
+           <h1 className='cam'>Cambodia</h1><br/>
+           <button>Book Now</button>
+           </div>
+
+           </div>
 
         </div>
       </section>
