@@ -551,8 +551,21 @@ select, option{
     height: 711px;
     margin: 0 0 30px 250px;  
     border-radius: 20px;
-    cursor: pointer;
 }
+.palmtree:hover .four_book{
+    animation: movement 0.7s forwards;
+}
+@keyframes movement{
+  100%{
+    transform: translateY(-20px);
+   opacity:1;
+  }
+ 
+  0%{
+    opacity:0;
+  }
+}
+
 .left .boat{
     background-image: url(./Assets/boat.jpg);
     width: 484px;
@@ -566,7 +579,19 @@ select, option{
     height: 711px;
     margin:0 0 100px 250px;  
     border-radius: 20px;
-    cursor: pointer;
+}
+.boat:hover .four_book{
+    animation: movement 0.7s forwards;
+}
+@keyframes movement{
+  100%{
+    transform: translateY(-20px);
+   opacity:1;
+  }
+ 
+  0%{
+    opacity:0;
+  }
 }
 .right .snowshed{
     background-image: url(./Assets/snowshed.jpg);
@@ -585,39 +610,71 @@ select, option{
     width: 484px;
     height: 711px;  
     border-radius: 20px;
-    cursor: pointer;
+    
+}
+.skier:hover .four_book{
+    animation: movement 0.7s forwards;
+    
+}
+@keyframes movement{
+  100%{
+    transform: translateY(-20px);
+   opacity:1;
+  }
+ 
+  0%{
+    opacity:0;
+  }
 }
 
 .four_book{
 width: 436px;
 margin: auto;
 padding-top: 485px;
-transform: translateY(300px);
-display:none;
+transform: translateY(100px);
 transition: 1s ease;
+opacity: 0;
 }
 
-.four_bookactive{
-    width: 436px;
-    margin: auto;
-    padding-top: 485px;
-    display:block;
-    transition: 1s ease;
-    }
-
-.four_bookactive h1{
+.four_book h1{
     font-size: 28px;
     margin-bottom: 20px;
 }
-.four_bookactive .cam{
+.four_book .cam{
     font-size: 21px;
     color: grey;
     margin: 0;
 }
-.four_bookactive button{
+.four_book button{
     width: 100%;
     height: 65px;
     background-color: rgba(62, 134, 245, 1);
     color: white;
     margin-top: 20px;
+}
+.four_book button:hover{
+    cursor: pointer;
+}
+
+/* Fifth Section */
+.fifthSection{
+    background-image: url(./Assets/section5_bg.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.fifthSection div h1{
+    padding-top: 180px;
+    margin-left: 150px;
+    font-size: 75px;
+    text-transform: capitalize;
+    line-height: 130px;
+}
+.fifthSection  button{
+    margin-left: 150px;
+    margin-top: 70px;
+    height: 60px;
+    width: 250px;
+    background-color:rgba(62, 134, 245, 1);
+    color: white;
 }

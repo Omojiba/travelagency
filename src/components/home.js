@@ -193,11 +193,9 @@ const [switchToggled3, setSwitchToggled3] = useState(false);
       <section className='fourthSection'>
         <div className='left'>
           <h1 className='hh'>The best resorts to chill and relax</h1>
-          <div className='palmtree display_box'
-               onMouseEnter={show}
-               onMouseLeave={show}>
+          <div className='palmtree display_box'>
 
-          <div className={hover ? 'four_bookactive' : 'four_book'}> 
+          <div className="four_book"> 
             <h1>Winter Landscape Chalet</h1>
            <h1 className='cam'>Cambodia</h1><br/>
            <button>Book Now</button>
@@ -231,6 +229,13 @@ const [switchToggled3, setSwitchToggled3] = useState(false);
            </div>
 
         </div>
+      </section>
+
+      <section className='fifthSection'>
+        <div>
+          <h1 className='sectionFive_text'>view passes we've made<br/> available for you</h1>
+        </div>
+        <button>View Passes</button>
       </section>
     </div>
   );
