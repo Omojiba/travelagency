@@ -1,29 +1,23 @@
-import React from 'react'
-import { useState } from 'react'
-import './home.css'
-import logo from './Assets/icon2.svg'
-import location from './Assets/location.svg'
-import persons from './Assets/persons_icon.svg'
-import calendar from './Assets/calendar_icon.svg'
-import plane from './Assets/plane.svg'
-import nike from './Assets/nike.svg'
-import applepay from './Assets/apple_pay.svg'
-import silverstar from './Assets/silver_star.svg'
-import intrax from './Assets/intrax.svg'
-import mastercard from './Assets/mastercard.svg'
-import chevron from './Assets/chevron.svg'
-import palmtree from './Assets/palmtree.jpg'
-import boat from './Assets/boat.jpg'
+import React from 'react';
+import { useState } from 'react';
+import './home.css';
+import logo from './Assets/icon2.svg';
+import location from './Assets/location.svg';
+import persons from './Assets/persons_icon.svg';
+import calendar from './Assets/calendar_icon.svg';
+import plane from './Assets/plane.svg';
+import nike from './Assets/nike.svg';
+import applepay from './Assets/apple_pay.svg';
+import silverstar from './Assets/silver_star.svg';
+import intrax from './Assets/intrax.svg';
+import mastercard from './Assets/mastercard.svg';
+import chevron from './Assets/chevron.svg';
+import facebook from './Assets/facebook.png'
+import instagram from './Assets/instagram.png'
+import twitter from './Assets/twitter.png'
 
 
 function Home(){
-
-  const [hover, setHover] = useState(false);
-
-  const show = () =>{
-    hover ? setHover(false) : setHover(true);
-  }
-
 
 // Switch 1
    const [switchToggled, setSwitchToggled] = useState(false);
@@ -84,7 +78,7 @@ const [switchToggled3, setSwitchToggled3] = useState(false);
 
           <div className='tripdetails'>
           <div className='ss1'>
-            <img src={location}/> <div><span>Location</span></div>
+            <img src={location} alt=''/> <div><span>Location</span></div>
             </div>
             <div className='dropdown'>
             <select>
@@ -98,7 +92,7 @@ const [switchToggled3, setSwitchToggled3] = useState(false);
 
             <div className='tripdetails'>
           <div className='ss1'>
-            <img src={persons}/> <div><span>persons</span></div>
+            <img src={persons} alt=''/> <div><span>persons</span></div>
             </div>
             <div className='dropdown'>
             <select>
@@ -112,7 +106,7 @@ const [switchToggled3, setSwitchToggled3] = useState(false);
 
             <div className='tripdetails'>
           <div className='ss1'>
-            <img src={calendar}/> <div><span>check in</span></div>
+            <img src={calendar} alt=''/> <div><span>check in</span></div>
             </div>
             <div className='dropdown'>
             <select>
@@ -126,7 +120,7 @@ const [switchToggled3, setSwitchToggled3] = useState(false);
 
             <div className='tripdetails'>
           <div className='ss1'>
-            <img src={calendar}/> <div><span>check out</span></div>
+            <img src={calendar} alt=''/> <div><span>check out</span></div>
             </div>
             <div className='dropdown'>
             <select>
@@ -139,7 +133,7 @@ const [switchToggled3, setSwitchToggled3] = useState(false);
             </div>
             <div className='booktrip'>
               <div> Book Trip</div>
-                <img className='plane' src={plane}/>
+                <img className='plane' src={plane} alt=''/>
               </div>
           
         </section>
@@ -237,6 +231,57 @@ const [switchToggled3, setSwitchToggled3] = useState(false);
         </div>
         <button>View Passes</button>
       </section>
+
+      <footer>
+        <div className='container'>
+        <div className='leftfooter'>
+        <a href='/' className='logo'>
+                    <img className='footerlogo' src= {logo} alt='logo'/>
+                </a>
+        
+        <h2>Arctic Travels</h2>
+        <p>Book your trip in minutes, get full<br/> control for much longer</p>
+
+        <img className='icon' src={facebook} alt='facebook'/>
+        <img className='icon' src={instagram} alt='instagram'/>
+        <img className='icon' src={twitter} alt='twitter'/><br/>
+
+       
+        </div>
+
+        <div className='rightfooter'>
+
+          <h4> COMPANY</h4>
+          <h4> CONTACT</h4>
+          <h4> MORE</h4>
+
+          <span>About</span>
+          <span>FAQ</span>
+          <span>Airlines</span>
+
+          <span>Careers</span>
+          <span>Press</span>
+          <span>Airfees</span>
+
+          <span>Mobile</span>
+          <span>Affiliates</span>
+          <span>Lowfare Tips</span>
+
+          
+
+
+        </div>
+        </div>
+
+        <div className='lastline'>
+
+        <span className='copyright'> © 2022 Arctic Travels || Developed by OMOJIBA - All rights reserved</span>
+
+        <span className='xyz' id='privacy'>Privacy Policy</span>
+          <span className='xyz'>Terms of Use</span>
+
+        </div>
+      </footer>
     </div>
   );
 }
