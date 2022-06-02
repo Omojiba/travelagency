@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/travelagency/static/css/main.9d60c67f.css",
+    "main.js": "/travelagency/static/js/main.db8fca0e.js",
+    "static/js/787.c408e15c.chunk.js": "/travelagency/static/js/787.c408e15c.chunk.js",
+    "static/media/fullpic1.jpg": "/travelagency/static/media/fullpic1.9df272cd04f5edfc94cf.jpg",
+    "static/media/section1_bg.jpg": "/travelagency/static/media/section1_bg.7013d881c5877ef764e6.jpg",
+    "static/media/fullpic3.jpg": "/travelagency/static/media/fullpic3.1eb4022b2d765a6d69f9.jpg",
+    "static/media/fullpic2.jpg": "/travelagency/static/media/fullpic2.68d122a08a0da1c9b0c5.jpg",
+    "static/media/palmtree.jpg": "/travelagency/static/media/palmtree.865705e10794c8e80ff4.jpg",
+    "static/media/section5_bg.jpg": "/travelagency/static/media/section5_bg.67bcc572ded9e3c30884.jpg",
+    "static/media/skier.jpg": "/travelagency/static/media/skier.8061864ba5abddeeaf2a.jpg",
+    "static/media/boat.jpg": "/travelagency/static/media/boat.b9b683bbf16f510e3379.jpg",
+    "static/media/map.svg": "/travelagency/static/media/map.37efc9dece04de0dd975.svg",
+    "static/media/snowshed.jpg": "/travelagency/static/media/snowshed.f328da1893a1651cc735.jpg",
+    "static/media/intrax.svg": "/travelagency/static/media/intrax.5159045c89db8cba9352211b8f723eac.svg",
+    "static/media/silver_star.svg": "/travelagency/static/media/silver_star.fac8cfd1967958a5e5580cfdd9604b58.svg",
+    "static/media/mastercard.svg": "/travelagency/static/media/mastercard.30e473234732d49b1b1fa53347d451ef.svg",
+    "static/media/nike.svg": "/travelagency/static/media/nike.9bc514800f00159c9dd17b6d332b3173.svg",
+    "static/media/apple_pay.svg": "/travelagency/static/media/apple_pay.5fb0ba4217d0f2be76bdf7715f4210ab.svg",
+    "static/media/icon2.svg": "/travelagency/static/media/icon2.fd321c6e13ca69cadb7e0468c5ac24b6.svg",
+    "index.html": "/travelagency/index.html",
+    "static/media/calendar_icon.svg": "/travelagency/static/media/calendar_icon.e6cd608762a3e682d7d4fd314830873b.svg",
+    "static/media/location.svg": "/travelagency/static/media/location.a3de08437c2419daed94a6d7523112b7.svg",
+    "static/media/persons_icon.svg": "/travelagency/static/media/persons_icon.0e22960418453734d0fba9c8795d1ce3.svg",
+    "static/media/plane.svg": "/travelagency/static/media/plane.d936747400c035b52073eca2332605f3.svg",
+    "static/media/chevron.svg": "/travelagency/static/media/chevron.f9f3ad9dec59b746de80f60496d2987b.svg",
+    "main.9d60c67f.css.map": "/travelagency/static/css/main.9d60c67f.css.map",
+    "main.db8fca0e.js.map": "/travelagency/static/js/main.db8fca0e.js.map",
+    "787.c408e15c.chunk.js.map": "/travelagency/static/js/787.c408e15c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d60c67f.css",
+    "static/js/main.db8fca0e.js"
+  ]
+}
